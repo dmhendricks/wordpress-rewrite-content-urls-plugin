@@ -36,13 +36,13 @@ There is no settings page in WP Admin for this plugin. All options are configure
 In order for this plugin to work, you must add a `REWRITE_URL_PATTERNS` constant to your `wp-config.php`.
 
 Example of simply replacing the page links' domain:
-```
-define('REWRITE_URL_PATTERNS', [ '/mydomain.com/' => 'mydomain.local' ] );
+```php
+define( 'REWRITE_URL_PATTERNS', [ '/mydomain.com/' => 'mydomain.local' ] );
 ```
 
 Example of simply replacing the page links' domain AND stripping 'www' (useful if your local development stack doesn't alias it):
-```
-define('REWRITE_URL_PATTERNS', [ '/(www.)?mydomain.com/' => 'mydomain.local' ] );
+```php
+define( 'REWRITE_URL_PATTERNS', [ '/(www.)?mydomain.com/' => 'mydomain.local' ] );
 ```
 
 Since the constant expects an array, you and add multiple match expressions.
