@@ -13,7 +13,7 @@ This plugin was primarily designed for developers, useful for development/stagin
 
 **DO NOT USE IN PRODUCTION:** This plugin should only be used for **development/staging** sites with frequently-synced data, as it creates a performance penalty.
 
-See also: [Network Sub-domain Updater](https://github.com/dmhendricks/wordpress-network-subdomain-updater-plugin) for WordPress multisite
+:pushpin: Use in conjunction with: [Network Sub-domain Updater](https://github.com/dmhendricks/wordpress-network-subdomain-updater-plugin) for WordPress multisite
 
 ## Requirements
 
