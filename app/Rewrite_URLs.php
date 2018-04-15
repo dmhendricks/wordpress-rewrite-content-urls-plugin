@@ -15,7 +15,7 @@ class Rewrite_URLs {
   }
 
   /**
-   * DOM parser function
+   * DOM parser - Replaced content from output buffer
    *
    * @param string Page contents in HTML format
    * @return string Modified page contents
@@ -26,17 +26,25 @@ class Rewrite_URLs {
 
     $html = HtmlPageCrawler::create( $page );
     $links = $html->filter( 'a[href]' );
+
     foreach( $links as $link ) {
       $link_href = $link->getAttribute( 'href' );
       $link->setAttribute( 'href', $this->rewrite_url( $link_href ) );
     }
-    //$links->setAttribute( 'href', '/test' );
+
     $html->saveHTML();
 
     return $html;
 
   }
 
+  /**
+   * Replace old/incorrect domains in URLs
+   *
+   * @param string The URL to rewrite
+   * @return string The modified URL
+   * @since 1.0.0
+   */
   private function rewrite_url( $url ) {
 
     foreach( REWRITE_URL_PATTERNS as $pattern => $replace ) {

@@ -21,7 +21,24 @@ This plugin was primarily designed for developers, useful for development/stagin
 * **PHP 7.0** or higher
 
 == Installation ==
-TODO
+1. Download and unzip the plugin to your WordPress plugins directory.
+2. Open `wp-config.php` for your site and define the `REWRITE_URL_PATTERNS` constant.
+3. Activate the plugin.
+
+=== Configuration ===
+In order for this plugin to work, you must add a `REWRITE_URL_PATTERNS` constant to your `wp-config.php`.
+
+Example of simply replacing the page links' domain:
+```
+define('REWRITE_URL_PATTERNS', [ '/mydomain.com/' => 'mydomain.local' ] );
+```
+
+Example of simply replacing the page links' domain AND stripping 'www' (useful if your local development stack doesn't alias it):
+```
+define('REWRITE_URL_PATTERNS', [ '/(www.)?mydomain.com/' => 'mydomain.local' ] );
+```
+
+Since the constant expects an array, you and add multiple match expressions.
 
 == Frequently Asked Questions ==
 = Q: Why did you use a constant to define the replacement URLs and not a settings page in WP Admin? =
