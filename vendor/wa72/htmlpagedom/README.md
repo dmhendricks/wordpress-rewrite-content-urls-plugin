@@ -1,8 +1,8 @@
 HtmlPageDom
 ===========
 
-[![Build Status](https://travis-ci.org/wasinger/htmlpagedom.svg?branch=1.3)](http://travis-ci.org/wasinger/htmlpagedom)
-[![Code Coverage](https://scrutinizer-ci.com/g/wasinger/htmlpagedom/badges/coverage.png?b=1.3)](https://scrutinizer-ci.com/g/wasinger/htmlpagedom/?branch=1.3)
+[![Build Status](https://travis-ci.org/wasinger/htmlpagedom.svg?branch=master)](http://travis-ci.org/wasinger/htmlpagedom)
+[![Code Coverage](https://scrutinizer-ci.com/g/wasinger/htmlpagedom/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/wasinger/htmlpagedom/?branch=master)
 [![Latest Version](http://img.shields.io/packagist/v/wa72/htmlpagedom.svg)](https://packagist.org/packages/wa72/htmlpagedom)
 [![Downloads from Packagist](http://img.shields.io/packagist/dt/wa72/htmlpagedom.svg)](https://packagist.org/packages/wa72/htmlpagedom)
 
