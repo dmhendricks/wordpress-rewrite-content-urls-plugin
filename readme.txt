@@ -3,7 +3,7 @@ Contributors: hendridm
 Tags: rewrite,content,links,urls
 Donate link: https://paypal.me/danielhendricks
 Requires at least: 4.7
-Tested up to: 4.9.5
+Tested up to: 4.9.6
 Stable tag: 1.0.0
 License: GPL-2.0
 License URI: https://github.com/dmhendricks/wordpress-rewrite-content-urls-plugin/blob/master/LICENSE
