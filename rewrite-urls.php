@@ -2,7 +2,7 @@
 /**
  * @wordpress-plugin
  * Plugin Name:       Rewrite Content URLs
- * Plugin URI:        https://bitbucket.org/ArlingtonCounty/acg-core-functionality/wiki
+ * Plugin URI:        https://github.com/dmhendricks/wordpress-rewrite-content-urls-plugin
  * Description:       Allows you to rewrite URLs in content, useful for syncing production data into a development/staging environment.
  * Version:           1.0.0
  * Author:            Daniel M. Hendricks

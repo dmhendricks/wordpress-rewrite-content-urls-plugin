@@ -10,7 +10,7 @@ class Rewrite_URLs {
 
   function __construct() {
 
-    add_filter( 'final_output', array( $this, 'dom_rewrite_content_links' ) );
+    if( !is_admin() ) add_filter( 'final_output', array( $this, 'dom_rewrite_content_links' ) );
 
   }
 
