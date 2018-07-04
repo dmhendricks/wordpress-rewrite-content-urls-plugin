@@ -1,7 +1,7 @@
 [![Author](https://img.shields.io/badge/author-Daniel%20M.%20Hendricks-lightgrey.svg?colorB=9900cc )](https://www.danhendricks.com/??utm_source=github.com&utm_medium=campaign&utm_content=button&utm_campaign=wordpress-rewrite-content-urls-plugin)
 [![Latest Version](https://img.shields.io/github/release/dmhendricks/wordpress-rewrite-content-urls-plugin.svg)](https://github.com/dmhendricks/wordpress-rewrite-content-urls-plugin/releases)
 [![GitHub License](https://img.shields.io/badge/license-GPLv2-yellow.svg)](https://raw.githubusercontent.com/dmhendricks/wordpress-rewrite-content-urls-plugin/master/LICENSE)
-[![FlyWheel](https://img.shields.io/badge/style-FlyWheel-green.svg?style=flat&label=get%20hosted&colorB=AE2A21)](https://getflywheel.com/why-flywheel/?utm_source=github.com&utm_medium=campaign&utm_content=button&utm_campaign=wordpress-rewrite-content-urls-plugin)
+[![FlyWheel](https://img.shields.io/badge/style-FlyWheel-green.svg?style=flat&label=get%20hosted&colorB=AE2A21)](https://share.getf.ly/e25g6k?utm_source=github.com&utm_medium=referral&utm_content=button&utm_campaign=wordpress-network-subdomain-updater-plugin)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/danielhendricks)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/dmhendricks/wordpress-rewrite-content-urls-plugin.svg?style=social)](https://twitter.com/danielhendricks)
 
